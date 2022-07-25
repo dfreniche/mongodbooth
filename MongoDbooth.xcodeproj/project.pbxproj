@@ -1,0 +1,756 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		995C67AD288B0FA200F55E26 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 995C67AC288B0FA200F55E26 /* Realm */; };
+		995C67AF288B0FA200F55E26 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 995C67AE288B0FA200F55E26 /* RealmSwift */; };
+		99692E092887067F009FA6A8 /* MongoDboothApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99692E082887067F009FA6A8 /* MongoDboothApp.swift */; };
+		99692E0B2887067F009FA6A8 /* QRScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99692E0A2887067F009FA6A8 /* QRScannerView.swift */; };
+		99692E0D28870681009FA6A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99692E0C28870681009FA6A8 /* Assets.xcassets */; };
+		99692E1028870681009FA6A8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99692E0F28870681009FA6A8 /* Preview Assets.xcassets */; };
+		99692E1A28870681009FA6A8 /* MongoDboothTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99692E1928870681009FA6A8 /* MongoDboothTests.swift */; };
+		99692E2428870682009FA6A8 /* MongoDboothUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99692E2328870682009FA6A8 /* MongoDboothUITests.swift */; };
+		99692E2628870682009FA6A8 /* MongoDboothUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99692E2528870682009FA6A8 /* MongoDboothUITestsLaunchTests.swift */; };
+		99692E33288706B1009FA6A8 /* QRCodeReaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99692E32288706B1009FA6A8 /* QRCodeReaderViewController.swift */; };
+		99692E3528870727009FA6A8 /* QRCodeReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99692E3428870727009FA6A8 /* QRCodeReaderView.swift */; };
+		99692E372887094D009FA6A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99692E362887094D009FA6A8 /* LaunchScreen.storyboard */; };
+		99692E392887F3E7009FA6A8 /* VCardStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99692E382887F3E7009FA6A8 /* VCardStub.swift */; };
+		99692E3C2887F4F1009FA6A8 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 99692E3B2887F4F1009FA6A8 /* Realm */; };
+		99692E3E2887F4F1009FA6A8 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 99692E3D2887F4F1009FA6A8 /* RealmSwift */; };
+		99692E412887F520009FA6A8 /* VCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99692E402887F520009FA6A8 /* VCard.swift */; };
+		99692E432888084E009FA6A8 /* VCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99692E422888084E009FA6A8 /* VCardView.swift */; };
+		99692E4528881865009FA6A8 /* RealmBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99692E4428881865009FA6A8 /* RealmBuilder.swift */; };
+		99692E4728881898009FA6A8 /* UseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99692E4628881898009FA6A8 /* UseCase.swift */; };
+		99692E49288818A3009FA6A8 /* SaveVCasdUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99692E48288818A3009FA6A8 /* SaveVCasdUseCase.swift */; };
+		99692E4E28881C14009FA6A8 /* VCardRealmRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99692E4D28881C14009FA6A8 /* VCardRealmRepository.swift */; };
+		99692E5128881CA7009FA6A8 /* VCardRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99692E5028881C1B009FA6A8 /* VCardRepository.swift */; };
+		99692E5328882266009FA6A8 /* VCardList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99692E5228882266009FA6A8 /* VCardList.swift */; };
+		99692E552888236D009FA6A8 /* LoadVCardsUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99692E542888236D009FA6A8 /* LoadVCardsUseCase.swift */; };
+		99835C482889991800C367C8 /* ImageButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99835C472889991800C367C8 /* ImageButton.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		99692E1628870681009FA6A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99692DFD2887067F009FA6A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99692E042887067F009FA6A8;
+			remoteInfo = MongoDbooth;
+		};
+		99692E2028870682009FA6A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99692DFD2887067F009FA6A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99692E042887067F009FA6A8;
+			remoteInfo = MongoDbooth;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		99692E052887067F009FA6A8 /* MongoDbooth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MongoDbooth.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		99692E082887067F009FA6A8 /* MongoDboothApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MongoDboothApp.swift; sourceTree = "<group>"; };
+		99692E0A2887067F009FA6A8 /* QRScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRScannerView.swift; sourceTree = "<group>"; };
+		99692E0C28870681009FA6A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		99692E0F28870681009FA6A8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		99692E1528870681009FA6A8 /* MongoDboothTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MongoDboothTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		99692E1928870681009FA6A8 /* MongoDboothTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MongoDboothTests.swift; sourceTree = "<group>"; };
+		99692E1F28870682009FA6A8 /* MongoDboothUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MongoDboothUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		99692E2328870682009FA6A8 /* MongoDboothUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MongoDboothUITests.swift; sourceTree = "<group>"; };
+		99692E2528870682009FA6A8 /* MongoDboothUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MongoDboothUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		99692E32288706B1009FA6A8 /* QRCodeReaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeReaderViewController.swift; sourceTree = "<group>"; };
+		99692E3428870727009FA6A8 /* QRCodeReaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeReaderView.swift; sourceTree = "<group>"; };
+		99692E362887094D009FA6A8 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		99692E382887F3E7009FA6A8 /* VCardStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCardStub.swift; sourceTree = "<group>"; };
+		99692E402887F520009FA6A8 /* VCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCard.swift; sourceTree = "<group>"; };
+		99692E422888084E009FA6A8 /* VCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCardView.swift; sourceTree = "<group>"; };
+		99692E4428881865009FA6A8 /* RealmBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmBuilder.swift; sourceTree = "<group>"; };
+		99692E4628881898009FA6A8 /* UseCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UseCase.swift; sourceTree = "<group>"; };
+		99692E48288818A3009FA6A8 /* SaveVCasdUseCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SaveVCasdUseCase.swift; sourceTree = "<group>"; };
+		99692E4D28881C14009FA6A8 /* VCardRealmRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCardRealmRepository.swift; sourceTree = "<group>"; };
+		99692E5028881C1B009FA6A8 /* VCardRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCardRepository.swift; sourceTree = "<group>"; };
+		99692E5228882266009FA6A8 /* VCardList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCardList.swift; sourceTree = "<group>"; };
+		99692E542888236D009FA6A8 /* LoadVCardsUseCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadVCardsUseCase.swift; sourceTree = "<group>"; };
+		99835C472889991800C367C8 /* ImageButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageButton.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		99692E022887067F009FA6A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				995C67AF288B0FA200F55E26 /* RealmSwift in Frameworks */,
+				995C67AD288B0FA200F55E26 /* Realm in Frameworks */,
+				99692E3E2887F4F1009FA6A8 /* RealmSwift in Frameworks */,
+				99692E3C2887F4F1009FA6A8 /* Realm in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99692E1228870681009FA6A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99692E1C28870682009FA6A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		99692DFC2887067F009FA6A8 = {
+			isa = PBXGroup;
+			children = (
+				99692E072887067F009FA6A8 /* MongoDbooth */,
+				99692E1828870681009FA6A8 /* MongoDboothTests */,
+				99692E2228870682009FA6A8 /* MongoDboothUITests */,
+				99692E062887067F009FA6A8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		99692E062887067F009FA6A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				99692E052887067F009FA6A8 /* MongoDbooth.app */,
+				99692E1528870681009FA6A8 /* MongoDboothTests.xctest */,
+				99692E1F28870682009FA6A8 /* MongoDboothUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		99692E072887067F009FA6A8 /* MongoDbooth */ = {
+			isa = PBXGroup;
+			children = (
+				99692E082887067F009FA6A8 /* MongoDboothApp.swift */,
+				99692E57288828E5009FA6A8 /* UI */,
+				99692E3F2887F509009FA6A8 /* Model */,
+				99692E56288828D8009FA6A8 /* Domain */,
+				99692E4F28881C1B009FA6A8 /* Data */,
+				99692E362887094D009FA6A8 /* LaunchScreen.storyboard */,
+				99692E0C28870681009FA6A8 /* Assets.xcassets */,
+				99692E0E28870681009FA6A8 /* Preview Content */,
+			);
+			path = MongoDbooth;
+			sourceTree = "<group>";
+		};
+		99692E0E28870681009FA6A8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				99692E0F28870681009FA6A8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		99692E1828870681009FA6A8 /* MongoDboothTests */ = {
+			isa = PBXGroup;
+			children = (
+				99692E1928870681009FA6A8 /* MongoDboothTests.swift */,
+				99692E382887F3E7009FA6A8 /* VCardStub.swift */,
+			);
+			path = MongoDboothTests;
+			sourceTree = "<group>";
+		};
+		99692E2228870682009FA6A8 /* MongoDboothUITests */ = {
+			isa = PBXGroup;
+			children = (
+				99692E2328870682009FA6A8 /* MongoDboothUITests.swift */,
+				99692E2528870682009FA6A8 /* MongoDboothUITestsLaunchTests.swift */,
+			);
+			path = MongoDboothUITests;
+			sourceTree = "<group>";
+		};
+		99692E3F2887F509009FA6A8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				99692E402887F520009FA6A8 /* VCard.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		99692E4F28881C1B009FA6A8 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				99692E4428881865009FA6A8 /* RealmBuilder.swift */,
+				99692E5028881C1B009FA6A8 /* VCardRepository.swift */,
+				99692E4D28881C14009FA6A8 /* VCardRealmRepository.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		99692E56288828D8009FA6A8 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				99692E4628881898009FA6A8 /* UseCase.swift */,
+				99692E542888236D009FA6A8 /* LoadVCardsUseCase.swift */,
+				99692E48288818A3009FA6A8 /* SaveVCasdUseCase.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		99692E57288828E5009FA6A8 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				99692E582888292E009FA6A8 /* UIKit */,
+				99692E0A2887067F009FA6A8 /* QRScannerView.swift */,
+				99692E5228882266009FA6A8 /* VCardList.swift */,
+				99692E422888084E009FA6A8 /* VCardView.swift */,
+				99835C472889991800C367C8 /* ImageButton.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		99692E582888292E009FA6A8 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				99692E3428870727009FA6A8 /* QRCodeReaderView.swift */,
+				99692E32288706B1009FA6A8 /* QRCodeReaderViewController.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		99692E042887067F009FA6A8 /* MongoDbooth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99692E2928870682009FA6A8 /* Build configuration list for PBXNativeTarget "MongoDbooth" */;
+			buildPhases = (
+				99692E012887067F009FA6A8 /* Sources */,
+				99692E022887067F009FA6A8 /* Frameworks */,
+				99692E032887067F009FA6A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MongoDbooth;
+			packageProductDependencies = (
+				99692E3B2887F4F1009FA6A8 /* Realm */,
+				99692E3D2887F4F1009FA6A8 /* RealmSwift */,
+				995C67AC288B0FA200F55E26 /* Realm */,
+				995C67AE288B0FA200F55E26 /* RealmSwift */,
+			);
+			productName = MongoDbooth;
+			productReference = 99692E052887067F009FA6A8 /* MongoDbooth.app */;
+			productType = "com.apple.product-type.application";
+		};
+		99692E1428870681009FA6A8 /* MongoDboothTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99692E2C28870682009FA6A8 /* Build configuration list for PBXNativeTarget "MongoDboothTests" */;
+			buildPhases = (
+				99692E1128870681009FA6A8 /* Sources */,
+				99692E1228870681009FA6A8 /* Frameworks */,
+				99692E1328870681009FA6A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99692E1728870681009FA6A8 /* PBXTargetDependency */,
+			);
+			name = MongoDboothTests;
+			productName = MongoDboothTests;
+			productReference = 99692E1528870681009FA6A8 /* MongoDboothTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		99692E1E28870682009FA6A8 /* MongoDboothUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99692E2F28870682009FA6A8 /* Build configuration list for PBXNativeTarget "MongoDboothUITests" */;
+			buildPhases = (
+				99692E1B28870682009FA6A8 /* Sources */,
+				99692E1C28870682009FA6A8 /* Frameworks */,
+				99692E1D28870682009FA6A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99692E2128870682009FA6A8 /* PBXTargetDependency */,
+			);
+			name = MongoDboothUITests;
+			productName = MongoDboothUITests;
+			productReference = 99692E1F28870682009FA6A8 /* MongoDboothUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		99692DFD2887067F009FA6A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					99692E042887067F009FA6A8 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					99692E1428870681009FA6A8 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 99692E042887067F009FA6A8;
+					};
+					99692E1E28870682009FA6A8 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 99692E042887067F009FA6A8;
+					};
+				};
+			};
+			buildConfigurationList = 99692E002887067F009FA6A8 /* Build configuration list for PBXProject "MongoDbooth" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 99692DFC2887067F009FA6A8;
+			packageReferences = (
+				99692E3A2887F4F1009FA6A8 /* XCRemoteSwiftPackageReference "realm-swift" */,
+				995C67AB288B0FA200F55E26 /* XCRemoteSwiftPackageReference "realm-swift" */,
+			);
+			productRefGroup = 99692E062887067F009FA6A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				99692E042887067F009FA6A8 /* MongoDbooth */,
+				99692E1428870681009FA6A8 /* MongoDboothTests */,
+				99692E1E28870682009FA6A8 /* MongoDboothUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		99692E032887067F009FA6A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99692E372887094D009FA6A8 /* LaunchScreen.storyboard in Resources */,
+				99692E1028870681009FA6A8 /* Preview Assets.xcassets in Resources */,
+				99692E0D28870681009FA6A8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99692E1328870681009FA6A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99692E1D28870682009FA6A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		99692E012887067F009FA6A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99692E33288706B1009FA6A8 /* QRCodeReaderViewController.swift in Sources */,
+				99692E4728881898009FA6A8 /* UseCase.swift in Sources */,
+				99692E432888084E009FA6A8 /* VCardView.swift in Sources */,
+				99692E3528870727009FA6A8 /* QRCodeReaderView.swift in Sources */,
+				99692E0B2887067F009FA6A8 /* QRScannerView.swift in Sources */,
+				99692E552888236D009FA6A8 /* LoadVCardsUseCase.swift in Sources */,
+				99692E49288818A3009FA6A8 /* SaveVCasdUseCase.swift in Sources */,
+				99692E5328882266009FA6A8 /* VCardList.swift in Sources */,
+				99692E092887067F009FA6A8 /* MongoDboothApp.swift in Sources */,
+				99692E4528881865009FA6A8 /* RealmBuilder.swift in Sources */,
+				99692E412887F520009FA6A8 /* VCard.swift in Sources */,
+				99835C482889991800C367C8 /* ImageButton.swift in Sources */,
+				99692E4E28881C14009FA6A8 /* VCardRealmRepository.swift in Sources */,
+				99692E5128881CA7009FA6A8 /* VCardRepository.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99692E1128870681009FA6A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99692E392887F3E7009FA6A8 /* VCardStub.swift in Sources */,
+				99692E1A28870681009FA6A8 /* MongoDboothTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99692E1B28870682009FA6A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99692E2428870682009FA6A8 /* MongoDboothUITests.swift in Sources */,
+				99692E2628870682009FA6A8 /* MongoDboothUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		99692E1728870681009FA6A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 99692E042887067F009FA6A8 /* MongoDbooth */;
+			targetProxy = 99692E1628870681009FA6A8 /* PBXContainerItemProxy */;
+		};
+		99692E2128870682009FA6A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 99692E042887067F009FA6A8 /* MongoDbooth */;
+			targetProxy = 99692E2028870682009FA6A8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		99692E2728870682009FA6A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		99692E2828870682009FA6A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		99692E2A28870682009FA6A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MongoDbooth/Preview Content\"";
+				DEVELOPMENT_TEAM = QX5CR2FTN2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to the camera if you want to scan QR codes!";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need access to your location to record where this QR was read!";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mongodb.MongoDbooth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+			};
+			name = Debug;
+		};
+		99692E2B28870682009FA6A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MongoDbooth/Preview Content\"";
+				DEVELOPMENT_TEAM = QX5CR2FTN2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to the camera if you want to scan QR codes!";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need access to your location to record where this QR was read!";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mongodb.MongoDbooth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+			};
+			name = Release;
+		};
+		99692E2D28870682009FA6A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BGTGP4V6AC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mongodb.MongoDboothTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MongoDbooth.app/MongoDbooth";
+			};
+			name = Debug;
+		};
+		99692E2E28870682009FA6A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BGTGP4V6AC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mongodb.MongoDboothTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MongoDbooth.app/MongoDbooth";
+			};
+			name = Release;
+		};
+		99692E3028870682009FA6A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BGTGP4V6AC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mongodb.MongoDboothUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MongoDbooth;
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+			};
+			name = Debug;
+		};
+		99692E3128870682009FA6A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BGTGP4V6AC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mongodb.MongoDboothUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MongoDbooth;
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		99692E002887067F009FA6A8 /* Build configuration list for PBXProject "MongoDbooth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99692E2728870682009FA6A8 /* Debug */,
+				99692E2828870682009FA6A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99692E2928870682009FA6A8 /* Build configuration list for PBXNativeTarget "MongoDbooth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99692E2A28870682009FA6A8 /* Debug */,
+				99692E2B28870682009FA6A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99692E2C28870682009FA6A8 /* Build configuration list for PBXNativeTarget "MongoDboothTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99692E2D28870682009FA6A8 /* Debug */,
+				99692E2E28870682009FA6A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99692E2F28870682009FA6A8 /* Build configuration list for PBXNativeTarget "MongoDboothUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99692E3028870682009FA6A8 /* Debug */,
+				99692E3128870682009FA6A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		995C67AB288B0FA200F55E26 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		99692E3A2887F4F1009FA6A8 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		995C67AC288B0FA200F55E26 /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 99692E3A2887F4F1009FA6A8 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		995C67AE288B0FA200F55E26 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 99692E3A2887F4F1009FA6A8 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+		99692E3B2887F4F1009FA6A8 /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 99692E3A2887F4F1009FA6A8 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		99692E3D2887F4F1009FA6A8 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 99692E3A2887F4F1009FA6A8 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 99692DFD2887067F009FA6A8 /* Project object */;
+}
