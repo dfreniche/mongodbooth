@@ -3,7 +3,9 @@
 import Foundation
 import Realm
 import RealmSwift
+import SwiftDotenv
 
+/// Builds a new Realm Instance. It could be in-memory, using a local DB or synced to MongoDB Atlas depending on selected ``RealmConfig``
 public class RealmBuilder {
     public enum RealmConfig {
         case inMemory
@@ -14,7 +16,7 @@ public class RealmBuilder {
             switch using {
             case .inMemory:
                 return Realm.Configuration(fileURL: nil,
-                                           inMemoryIdentifier: "Pixelator",
+                                           inMemoryIdentifier: "MongoDBooth.InMemory",
                                            syncConfiguration: nil,
                                            encryptionKey: nil,
                                            readOnly: false,
@@ -62,7 +64,7 @@ public class RealmBuilder {
 
         guard RealmBuilder.syncedRealm == nil else { return RealmBuilder.syncedRealm }
         
-        let app = App(id: "mongodbooth-mspxa") // Replace YOUR_APP_SERVICES_APP_ID with your Realm app ID
+        let app = App(id: getAppIdFromDotEnv())
         do {
             let loginResult = try await app.login(credentials: Credentials.anonymous)
 
@@ -93,5 +95,22 @@ public class RealmBuilder {
             
         }
         return RealmBuilder.syncedRealm
+    }
+    
+    // load in environment variables
+    // add a value for your App Id in config.env if you want to use Atlas Device Sync
+    func getAppIdFromDotEnv() -> String {
+        //
+        do {
+            try Dotenv.configure(atPath: Bundle.main.path(forResource: "config.env", ofType: nil) ?? "")
+        } catch {
+            print(error)
+        }
+        
+        // access values
+        let appId: String = Dotenv["appId"]?.stringValue ?? ""
+        print(appId)
+        
+        return appId
     }
 }

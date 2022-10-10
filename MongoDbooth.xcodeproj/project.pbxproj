@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		995A743828F46AA500782D61 /* SwiftDotenv in Frameworks */ = {isa = PBXBuildFile; productRef = 995A743728F46AA500782D61 /* SwiftDotenv */; };
+		995A743C28F4724500782D61 /* config.env in Resources */ = {isa = PBXBuildFile; fileRef = 995A743B28F4724500782D61 /* config.env */; };
 		995C67AD288B0FA200F55E26 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 995C67AC288B0FA200F55E26 /* Realm */; };
 		995C67AF288B0FA200F55E26 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 995C67AE288B0FA200F55E26 /* RealmSwift */; };
 		99692E092887067F009FA6A8 /* MongoDboothApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99692E082887067F009FA6A8 /* MongoDboothApp.swift */; };
@@ -52,6 +54,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		995A743428F4608000782D61 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		995A743B28F4724500782D61 /* config.env */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = config.env; sourceTree = "<group>"; };
 		99692E052887067F009FA6A8 /* MongoDbooth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MongoDbooth.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99692E082887067F009FA6A8 /* MongoDboothApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MongoDboothApp.swift; sourceTree = "<group>"; };
 		99692E0A2887067F009FA6A8 /* QRScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRScannerView.swift; sourceTree = "<group>"; };
@@ -83,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				995A743828F46AA500782D61 /* SwiftDotenv in Frameworks */,
 				995C67AF288B0FA200F55E26 /* RealmSwift in Frameworks */,
 				995C67AD288B0FA200F55E26 /* Realm in Frameworks */,
 				99692E3E2887F4F1009FA6A8 /* RealmSwift in Frameworks */,
@@ -110,6 +115,8 @@
 		99692DFC2887067F009FA6A8 = {
 			isa = PBXGroup;
 			children = (
+				995A743B28F4724500782D61 /* config.env */,
+				995A743428F4608000782D61 /* README.md */,
 				99692E072887067F009FA6A8 /* MongoDbooth */,
 				99692E1828870681009FA6A8 /* MongoDboothTests */,
 				99692E2228870682009FA6A8 /* MongoDboothUITests */,
@@ -238,6 +245,7 @@
 				99692E3D2887F4F1009FA6A8 /* RealmSwift */,
 				995C67AC288B0FA200F55E26 /* Realm */,
 				995C67AE288B0FA200F55E26 /* RealmSwift */,
+				995A743728F46AA500782D61 /* SwiftDotenv */,
 			);
 			productName = MongoDbooth;
 			productReference = 99692E052887067F009FA6A8 /* MongoDbooth.app */;
@@ -313,7 +321,7 @@
 			mainGroup = 99692DFC2887067F009FA6A8;
 			packageReferences = (
 				99692E3A2887F4F1009FA6A8 /* XCRemoteSwiftPackageReference "realm-swift" */,
-				995C67AB288B0FA200F55E26 /* XCRemoteSwiftPackageReference "realm-swift" */,
+				995A743628F46AA500782D61 /* XCRemoteSwiftPackageReference "swift-dotenv" */,
 			);
 			productRefGroup = 99692E062887067F009FA6A8 /* Products */;
 			projectDirPath = "";
@@ -334,6 +342,7 @@
 				99692E372887094D009FA6A8 /* LaunchScreen.storyboard in Resources */,
 				99692E1028870681009FA6A8 /* Preview Assets.xcassets in Resources */,
 				99692E0D28870681009FA6A8 /* Assets.xcassets in Resources */,
+				995A743C28F4724500782D61 /* config.env in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -711,12 +720,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		995C67AB288B0FA200F55E26 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+		995A743628F46AA500782D61 /* XCRemoteSwiftPackageReference "swift-dotenv" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/realm/realm-swift.git";
+			repositoryURL = "https://github.com/thebarndog/swift-dotenv.git";
 			requirement = {
-				branch = master;
-				kind = branch;
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
 			};
 		};
 		99692E3A2887F4F1009FA6A8 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
@@ -730,6 +739,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		995A743728F46AA500782D61 /* SwiftDotenv */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 995A743628F46AA500782D61 /* XCRemoteSwiftPackageReference "swift-dotenv" */;
+			productName = SwiftDotenv;
+		};
 		995C67AC288B0FA200F55E26 /* Realm */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 99692E3A2887F4F1009FA6A8 /* XCRemoteSwiftPackageReference "realm-swift" */;
