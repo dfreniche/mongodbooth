@@ -9,6 +9,8 @@ import Foundation
 import RealmSwift
 import CoreLocation
 
+/// Stores all data read from the QR. If it's in vCard v3 format then all fields are populated
+/// You can always access the whole QR code in ``qrRead``
 class VCard: Object, Identifiable {
     @Persisted(primaryKey: true) var _id: ObjectId
     @Persisted var _partition: String = "partitionKey"
@@ -24,6 +26,7 @@ class VCard: Object, Identifiable {
     @Persisted public var latitude: Double
     @Persisted public var longitude: Double
     
+    /// Coordinates where the QR code was read. No need to store this one
     public var coordinate: CLLocationCoordinate2D {
         CLLocationCoordinate2D(latitude: self.latitude, longitude: self.longitude)
     }
